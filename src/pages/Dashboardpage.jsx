@@ -9,7 +9,7 @@ const UserList = () => {
       try {
         // const res = await fetch('http://localhost:5000/api/users');
 
-        const res = await fetch('https://hostingdemoji.vercel.app/api/users');
+        const res = await fetch('http://localhost:5000/api/users');
         const data = await res.json();
         setUsers(data);
         console.log(data);

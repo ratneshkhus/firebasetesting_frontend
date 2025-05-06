@@ -12,7 +12,7 @@ const RegisterPage = () => {
   const handleRegister = async (e) => {
     e.preventDefault();
 
-    const res = await fetch('https://hostingdemoji.vercel.app/api/register', {
+    const res = await fetch('http://localhost:5000/api/register', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
