@@ -46,6 +46,7 @@ const RegisterPage = () => {
         <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required />
         <button type="submit">Register</button>
         <p onClick={() => navigate('/')}>Already have an account? Login</p>
+        <p onClick={() => navigate('/dashboard')}>ssee data</p>
       </form>
     </div>
   );
